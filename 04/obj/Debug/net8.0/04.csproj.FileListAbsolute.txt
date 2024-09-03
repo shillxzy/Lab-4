@@ -1,0 +1,14 @@
+C:\Users\dmska\source\repos\Lab4\04\bin\Debug\net8.0\04.exe
+C:\Users\dmska\source\repos\Lab4\04\bin\Debug\net8.0\04.deps.json
+C:\Users\dmska\source\repos\Lab4\04\bin\Debug\net8.0\04.runtimeconfig.json
+C:\Users\dmska\source\repos\Lab4\04\bin\Debug\net8.0\04.dll
+C:\Users\dmska\source\repos\Lab4\04\bin\Debug\net8.0\04.pdb
+C:\Users\dmska\source\repos\Lab4\04\obj\Debug\net8.0\04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmska\source\repos\Lab4\04\obj\Debug\net8.0\04.AssemblyInfoInputs.cache
+C:\Users\dmska\source\repos\Lab4\04\obj\Debug\net8.0\04.AssemblyInfo.cs
+C:\Users\dmska\source\repos\Lab4\04\obj\Debug\net8.0\04.csproj.CoreCompileInputs.cache
+C:\Users\dmska\source\repos\Lab4\04\obj\Debug\net8.0\04.dll
+C:\Users\dmska\source\repos\Lab4\04\obj\Debug\net8.0\refint\04.dll
+C:\Users\dmska\source\repos\Lab4\04\obj\Debug\net8.0\04.pdb
+C:\Users\dmska\source\repos\Lab4\04\obj\Debug\net8.0\04.genruntimeconfig.cache
+C:\Users\dmska\source\repos\Lab4\04\obj\Debug\net8.0\ref\04.dll
