@@ -39,6 +39,21 @@ class PriceCalculator
 
         total = pricePerDay * numberOfDays;
 
+        total *= (int)season;
+
+        float discountAmount = 0;
+        if (discount == Discount.VIP)
+        {
+            discountAmount = (total * (int)Discount.VIP) / 100;
+        }
+        else if (discount == Discount.SecondVisit)
+        {
+            discountAmount = (total * (int)Discount.SecondVisit) / 100;
+        }
+
+        total -= discountAmount;
+
+
         return total;
     }
 }
@@ -53,8 +68,14 @@ class Program
         string seasons = input[2];
         float discount = 0;
 
+        string discounts = discount.ToString();
+        if (input.Length > 3)
+        {
+            discounts = input[3];
+        }
+
         PriceCalculator.Season SEAS = Enum.Parse<PriceCalculator.Season>(seasons);
-        PriceCalculator.Discount DIS = (PriceCalculator.Discount)discount;
+        PriceCalculator.Discount DIS = Enum.Parse<PriceCalculator.Discount>(discounts);
 
 
         PriceCalculator calculator = new PriceCalculator(pricePerDay, numberOfDays, SEAS, DIS);
@@ -62,34 +83,7 @@ class Program
         float total = 0.0f;
         total = calculator.TotalCostofVacation();
 
-        if (SEAS == Season.Summer)
-        {
-            total *= (int)Season.Summer;
-        }
-        else if (SEAS == Season.Spring)
-        {
-            total *= (int)Season.Spring;
-        }
-        else if (SEAS == Season.Autumn)
-        {
-            total *= (int)Season.Autumn;
-        }
-        else if (SEAS == Season.Winter)
-        {
-            total *= (int)Season.Winter;
-        }
-
-        if (DIS == Discount.VIP)
-        {
-            discount = ((int)Discount.VIP / 100) * total;
-            total = discount;
-        }
-        else if (DIS == Discount.SecondVisit)
-        {
-            discount = ((int)Discount.SecondVisit / 100) * total;
-            total = discount;
-        }
-
+   
         double result = Math.Round(total, 2);
 
         Console.WriteLine(result);

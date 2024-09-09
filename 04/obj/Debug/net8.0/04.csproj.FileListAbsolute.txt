@@ -12,3 +12,4 @@ C:\Users\dmska\source\repos\Lab4\04\obj\Debug\net8.0\refint\04.dll
 C:\Users\dmska\source\repos\Lab4\04\obj\Debug\net8.0\04.pdb
 C:\Users\dmska\source\repos\Lab4\04\obj\Debug\net8.0\04.genruntimeconfig.cache
 C:\Users\dmska\source\repos\Lab4\04\obj\Debug\net8.0\ref\04.dll
+C:\Users\dmska\source\repos\Lab4\04\obj\Debug\net8.0\04.sourcelink.json

@@ -114,7 +114,7 @@ class Hospital
         departments.Add(department);
     }
 
-    public Department GetDepartment(string name)
+    public Department? GetDepartment(string name)
     {
         for (int i = 0; i < departments.Count; i++)
         {
